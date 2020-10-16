@@ -5,16 +5,17 @@
 
 
 body {
-    background-color: #f4f4f4;
-    font-family: 'Tangerine', cursive;
-    font-weight: 700;
-}
-
-h2 {
+    background-color: #fcf9f9;
     font-weight: 300;
     
-    letter-spacing: -1.2px;
+}
 
+h4 {
+    font-weight: 700;
+    font-family: 'Tangerine', cursive;
+    letter-spacing: -1.2px;
+    padding-bottom: 40px;
+    font-size: 150%;
 }
 
 a {
@@ -41,6 +42,7 @@ a {
 
 .section-content {
     color: #3a3a3a;
+    
     float: left;
     width: 340;
 }
@@ -49,6 +51,7 @@ a {
     float: right;
     position: relative;
     top: 65px;
+    padding-right: 70;
 }
 
 .section-device img {
@@ -60,7 +63,7 @@ a {
     border: 1px solid #1266f1;
     color: #ffffff;
     
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.23px;
     

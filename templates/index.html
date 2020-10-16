@@ -2,16 +2,20 @@
 
 {% block content %}
     <main class="hero-section">
-        <div class="container">
+        <section class="container">
 
-            <div class="section-content">
+            <article class="section-content">
                
                     
-                 <h2>Discover places near you.</h2>
-                
+                 <h4>Discover places <br/>near you.</h4>
+            
+            
                 <a href="#"class="btn-primary">SIGN UP</a>
-                <a href="#" class="btn-secondary">Learn More</a>
-            </div>
+                <a href="{{ url_for('about') }}" class="btn-secondary">Learn More</a>
+            </article>
+        </section>
+
+
         <article>
             <div class="section-device">
                 <img src="/static/img/device.PNG">
